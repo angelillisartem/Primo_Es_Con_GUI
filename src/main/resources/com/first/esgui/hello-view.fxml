@@ -9,8 +9,13 @@
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
 
-    <Label fx:id="number1" />
-    <Button onAction="#onNumber1ButtonClick" text="No!" />
-    <Label fx:id="number2" />
-   <Button layoutX="30.0" layoutY="67.0" onAction="#onNumber2ButtonCLick" text="Si!" />
+    <Label style="-fx-font-size: 18; -fx-font-style: Italic;" text="Login" textAlignment="CENTER" />
+    <Label />
+    <Label text="Username" />
+    <TextField prefHeight="25.0" prefWidth="86.0" />
+    <Label text="Password" />
+   <PasswordField prefHeight="25.0" prefWidth="97.0" />
+    <Label fx:id="Login" />
+    <Button onAction="#onNumber1ButtonClick" prefHeight="25.0" prefWidth="64.0" text="Login" />
+
 </VBox>

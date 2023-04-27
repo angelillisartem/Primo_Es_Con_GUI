@@ -2,20 +2,15 @@ package com.first.esgui;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import javafx.scene.control.PasswordField;
 
 public class HelloController {
     @FXML
-    private Label number1;
-    @FXML
-    private Label number2;
+    private Label Login;
 
     @FXML
     protected void onNumber1ButtonClick() {
-        number1.setText("Si!");
+        Login.setText("Login non successo!");
     }
 
-    @FXML
-    protected void onNumber2ButtonCLick() {
-        number2.setText("No!");
-    }
 }
